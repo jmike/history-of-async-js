@@ -10,7 +10,7 @@ server.route([
     handler: (request, reply) => {
       setTimeout(() => {
         reply(request.query.q).type('text/plain');
-      }, 3000 * Math.random());
+      }, 5000 * Math.random());
     }
   }
 ]);
