@@ -3,7 +3,4 @@
 .env
 .project
 /node_modules/
-/design/
-/fonts/
-/mockups/
 /src/public/vendor/
